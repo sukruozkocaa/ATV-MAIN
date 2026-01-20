@@ -1,0 +1,1751 @@
+{
+    "meta": {
+        "status_code": 200,
+        "message": "",
+        "description": "Core V2 - Anasayfa",
+        "brand": "Atv",
+        "redirect": "",
+        "createdAt": "2026-01-19T17:39:40.7495219+03:00"
+    },
+    "data": [
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF383A40",
+                    "bgColorLight": "FF172338",
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "radius": 0,
+                    "ratio": 1
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 0,
+                    "size": "752x1000",
+                    "weight": 1
+                },
+                "indicator": {
+                    "borderColor": "00FFFFFF",
+                    "borderColorDark": "00FFFFFF",
+                    "height": 28,
+                    "isActive": true,
+                    "isOverImage": true,
+                    "selectedColor": "FFCB2C1E",
+                    "showIndex": false,
+                    "type": "ellipse",
+                    "unselectedColor": "FFA2A3A5",
+                    "unselectedColorDark": "FFA2A3A5"
+                },
+                "spot": {
+                    "align": "center",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 20,
+                    "fontType": "Overpass-bold",
+                    "gradient": true,
+                    "isActive": true,
+                    "maxLines": 1,
+                    "scrollBehaviour": "paging"
+                },
+                "title": {
+                    "align": "center",
+                    "checkShowTitle": false,
+                    "fontColorDark": "FFCB2C1E",
+                    "fontColorLight": "FFCB2C1E",
+                    "fontSize": 25,
+                    "fontType": "Overpass-bold",
+                    "gradient": true,
+                    "isActive": true,
+                    "isDynamicLines": true,
+                    "maxLines": 2,
+                    "scrollBehaviour": "paging"
+                },
+                "widget": {
+                    "autoSlide": false,
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "infinityLoop": true,
+                    "interval": 8,
+                    "isActiveTiak": true,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "scrollBehaviour": "paging",
+                    "template": "headlines",
+                    "type": "horizontal"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "news": [
+                {
+                    "external": "video://ac942087-0617-4e58-ad5c-b6b18998d3ec",
+                    "id": "1df296f2-0ef1-4355-9225-acad86f56e9c",
+                    "image": "https://iaatv.tmgrup.com.tr/392e52/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2025/11/24/abi-1763988361819.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2025/11/24/abi-1763988361819.jpg",
+                    "spot": "Yeni Bölüm | Salı 20.00",
+                    "title": "A.B.İ."
+                },
+                {
+                    "external": "video://e1fbe55c-d9e0-4140-87ed-d4600c6ae3ab",
+                    "id": "2c9ab40e-5eae-4e77-8ad7-05e58f166f8e",
+                    "image": "https://iaatv.tmgrup.com.tr/e7ed63/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2026/01/16/ayni-yagmur-altinda-1768592092001.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/16/ayni-yagmur-altinda-1768592092001.jpg",
+                    "spot": "yakında atv'de!",
+                    "title": "Aynı Yağmur Altında"
+                },
+                {
+                    "external": "video://e690ecc9-5ccc-4b01-8257-bd3d195f8b6f",
+                    "id": "bb3ca52b-0fc1-4d40-8dc0-b4df5dbaa02a",
+                    "image": "https://iaatv.tmgrup.com.tr/32c185/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2025/10/17/kurulus-orhan-1760723973789.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2025/10/17/kurulus-orhan-1760723973789.jpg",
+                    "spot": "Yeni Bölüm | Çarşamba 20.00",
+                    "title": "Kuruluş Orhan"
+                },
+                {
+                    "external": "video://3142ed92-218f-4d12-a000-de8bd01d7f81",
+                    "id": "4f591d10-3b2e-4f4f-aa67-539a6c05c34c",
+                    "image": "https://iaatv.tmgrup.com.tr/d9ae2e/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2026/01/03/milyoner-1767452851557.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/03/milyoner-1767452851557.jpg",
+                    "spot": "Yeni Bölüm | Perşembe 20.00",
+                    "title": "Milyoner"
+                },
+                {
+                    "external": "video://c7d349a5-43eb-4e87-bc3d-18bd1f4c7e27",
+                    "id": "014b89a4-de54-4343-a4d7-7a45c6265302",
+                    "image": "https://iaatv.tmgrup.com.tr/0cd9d6/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2026/01/15/1768508727922.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/15/1768508727922.jpg",
+                    "spot": "",
+                    "title": "︎︎⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀"
+                }
+            ]
+        },
+        
+        
+        
+        
+        
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF000000",
+                    "bgColorLight": "FF000000",
+                    "borderColor": "0AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 0,
+                    "ratio": 0.44
+                },
+                "icon": {
+                    "isActive": true,
+                    "position": "topRight",
+                    "size": 24,
+                    "type": "bell"
+                },
+                "date": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 12,
+                    "fontType": "Overpass-semibold",
+                    "isActive": true,
+                    "maxLines": 1
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 9,
+                        "left": 1,
+                        "right": 1,
+                        "top": 1
+                    },
+                    "radius": 8,
+                    "size": "500x281",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFE97B40",
+                    "fontColorLight": "FFE97B40",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 3,
+                    "verticalAlignment": "top"
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 16,
+                        "right": 16,
+                        "top": 20
+                    },
+                    "rowCount": 1,
+                    "template": "program",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "text": "Atv'de İzle | Gelecek Yayınlar"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "videos": [
+                {
+                    "episode": 1,
+                    "external": "video://e1fbe55c-d9e0-4140-87ed-d4600c6ae3ab",
+                    "image": "https://iaatv.tmgrup.com.tr/3581fa/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/ayni-yagmur-altinda-1768590532294.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "1. Bölüm Fragmanı",
+                    "date": " 1 Ocak",
+                    "title": "Aynı Yağmur Altında",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": 2,
+                    "external": "video://ac942087-0617-4e58-ad5c-b6b18998d3ec",
+                    "image": "https://iaatv.tmgrup.com.tr/fb03ad/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/abi-1768581352313.jpg",
+                    "season": null,
+                    "showAd": false,
+                    "spot": "2. Bölüm Fragmanı",
+                    "date": "Bugün",
+                    "title": "A.B.İ.",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://edd8ab98-5334-40c8-9b6d-af8fa646f8a6",
+                    "image": "https://iaatv.tmgrup.com.tr/76aea5/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/abi01blbuaksamv345sn-1768548733618.jpg",
+                    "season": null,
+                    "showAd": true,
+                    "spot": "",
+                    "date": "Yarın",
+                    "title": "A.B.İ. 1. Bölüm tekrarıyla bu akşam 20.00'de atv'de",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://1dbfb759-88da-48fb-8c6b-98832ea7692a",
+                    "image": "https://iaatv.tmgrup.com.tr/5ee80d/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/15/kandiliniz-mubarek-olsun-1768471487213.jpg",
+                    "season": 18,
+                    "showAd": true,
+                    "spot": "15 Ocak 2026 Perşembe",
+                    "date": "21 Ocak",
+                    "title": "Kandiliniz Mübarek Olsun",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 11,
+                    "external": "video://ce1fbcf4-f250-4b76-b498-bac20367ca85",
+                    "image": "https://iaatv.tmgrup.com.tr/ab7c09/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/kurulus-orhan-1768419275959.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "11. Bölüm Fragmanı",
+                    "date": "21 Ocak",
+                    "title": "Kuruluş Orhan",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://4cefe76b-b1a2-418e-8b0d-f9de02413d1f",
+                    "image": "https://iaatv.tmgrup.com.tr/16f524/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-savas-alaninda-ustalik-dersi-1768415140152.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "date": "21 Ocak",
+                    "title": "Orhan Bey’den savaş alanında ustalık dersi...",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://e0ce48a3-29a1-4d1f-a05f-47c1e10676ce",
+                    "image": "https://iaatv.tmgrup.com.tr/faac73/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/polis-tarafindan-1-yildir-araniyordu-1768406778813.jpg",
+                    "season": 11,
+                    "showAd": true,
+                    "spot": "14 Ocak 2026 Çarşamba",
+                    "date": "21 Ocak",
+                    "title": "Polis tarafından 1 yıldır aranıyordu!",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://c3a7ddcd-cb4e-42df-977e-ea94c1aab2af",
+                    "image": "https://iaatv.tmgrup.com.tr/451e4a/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "date": "21 Ocak",
+                    "title": "İlk karşılaşma",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 2,
+                    "external": "video://508a3f4a-ad48-490c-a60c-30977473114f",
+                    "image": "https://iaatv.tmgrup.com.tr/558b59/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/abi-1768326192377.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "2. Bölüm Fragmanı",
+                    "date": "21 Ocak",
+                    "title": "A.B.İ.",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://72445588-18bd-4828-a42d-723eb2d2adb9",
+                    "image": "https://iaatv.tmgrup.com.tr/d77c87/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/besiktas-ankara-keciorengucu-persembe-2030da-atvde-1768306230378.jpg",
+                    "season": null,
+                    "showAd": true,
+                    "date": "21 Ocak",
+                    "spot": "",
+                    "title": "Beşiktaş - Ankara Keçiörengücü",
+                    "videoTypeId": 12
+                }
+            ]
+        },
+        
+        
+        
+        
+        
+        
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF000000",
+                    "bgColorLight": "FF000000",
+                    "borderColor": "0AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 0,
+                    "ratio": 0.66
+                },
+                "date": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 12,
+                    "fontType": "Overpass-semibold",
+                    "isActive": true,
+                    "maxLines": 1
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 9,
+                        "left": 1,
+                        "right": 1,
+                        "top": 1
+                    },
+                    "radius": 8,
+                    "size": "500x281",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFE97B40",
+                    "fontColorLight": "FFE97B40",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 3,
+                    "verticalAlignment": "top"
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 16,
+                        "right": 16,
+                        "top": 20
+                    },
+                    "rowCount": 1,
+                    "template": "program",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "text": "Diziler",
+                    "redirectUrl": "ss"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "videos": [
+                {
+                    "episode": 1,
+                    "external": "video://508a3f4a-ad48-490c-a60c-30977473114f",
+                    "image": "https://iaatv.tmgrup.com.tr/76aea5/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/abi01blbuaksamv345sn-1768548733618.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "2. Bölüm Fragmanı",
+                    "date": "YENİ DİZİ",
+                    "title": "A.B.İ.",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 11,
+                    "external": "video://ce1fbcf4-f250-4b76-b498-bac20367ca85",
+                    "image": "https://iaatv.tmgrup.com.tr/ab7c09/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/kurulus-orhan-1768419275959.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "11. Bölüm Fragmanı",
+                    "date": "YENİ BÖLÜM",
+                    "title": "Kuruluş Orhan",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://4cefe76b-b1a2-418e-8b0d-f9de02413d1f",
+                    "image": "https://iaatv.tmgrup.com.tr/16f524/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-savas-alaninda-ustalik-dersi-1768415140152.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "date": "YENİ BÖLÜM",
+                    "title": "Orhan Bey’den savaş alanında ustalık dersi...",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://e0ce48a3-29a1-4d1f-a05f-47c1e10676ce",
+                    "image": "https://iaatv.tmgrup.com.tr/faac73/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/polis-tarafindan-1-yildir-araniyordu-1768406778813.jpg",
+                    "season": 11,
+                    "showAd": true,
+                    "spot": "14 Ocak 2026 Çarşamba",
+                    "date": "YENİ BÖLÜM",
+                    "title": "Polis tarafından 1 yıldır aranıyordu!",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://c3a7ddcd-cb4e-42df-977e-ea94c1aab2af",
+                    "image": "https://iaatv.tmgrup.com.tr/451e4a/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "date": "YENİ BÖLÜM",
+                    "title": "İlk karşılaşma",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://72445588-18bd-4828-a42d-723eb2d2adb9",
+                    "image": "https://iaatv.tmgrup.com.tr/d77c87/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/besiktas-ankara-keciorengucu-persembe-2030da-atvde-1768306230378.jpg",
+                    "season": null,
+                    "showAd": true,
+                    "date": "YENİ BÖLÜM",
+                    "spot": "",
+                    "title": "Beşiktaş - Ankara Keçiörengücü",
+                    "videoTypeId": 12
+                }
+            ]
+        },
+        
+        
+        
+        
+        
+        
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF000000",
+                    "bgColorLight": "FF000000",
+                    "borderColor": "0AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 0,
+                    "ratio": 0.44
+                },
+                "icon": {
+                    "isActive": true,
+                    "position": "topRight",
+                    "size": 24,
+                    "type": "bell"
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 9,
+                        "left": 1,
+                        "right": 1,
+                        "top": 1
+                    },
+                    "radius": 8,
+                    "size": "500x281",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFE97B40",
+                    "fontColorLight": "FFE97B40",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 3,
+                    "verticalAlignment": "top"
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 16,
+                        "right": 16,
+                        "top": 20
+                    },
+                    "rowCount": 1,
+                    "template": "program",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "text": "Programlar",
+                    "redirectUrl": "ss"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "videos": [
+                {
+                    "episode": null,
+                    "external": "video://1dbfb759-88da-48fb-8c6b-98832ea7692a",
+                    "image": "https://iaatv.tmgrup.com.tr/5ee80d/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/15/kandiliniz-mubarek-olsun-1768471487213.jpg",
+                    "season": 18,
+                    "showAd": true,
+                    "spot": "Pazartesi • 10:00",
+                    "title": "Müge Anlı İle Tatlı Sert",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 11,
+                    "external": "video://ce1fbcf4-f250-4b76-b498-bac20367ca85",
+                    "image": "https://iaatv.tmgrup.com.tr/ab7c09/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/kurulus-orhan-1768419275959.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "Pazartesi • 16:00",
+                    "title": "Kuruluş Orhan",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://4cefe76b-b1a2-418e-8b0d-f9de02413d1f",
+                    "image": "https://iaatv.tmgrup.com.tr/16f524/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-savas-alaninda-ustalik-dersi-1768415140152.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "Salı • 20:00",
+                    "title": "Orhan Bey’den savaş alanında ustalık dersi...",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://e0ce48a3-29a1-4d1f-a05f-47c1e10676ce",
+                    "image": "https://iaatv.tmgrup.com.tr/faac73/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/polis-tarafindan-1-yildir-araniyordu-1768406778813.jpg",
+                    "season": 11,
+                    "showAd": true,
+                    "spot": "14 Ocak 2026 Çarşamba",
+                    "title": "Polis tarafından 1 yıldır aranıyordu!",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://c3a7ddcd-cb4e-42df-977e-ea94c1aab2af",
+                    "image": "https://iaatv.tmgrup.com.tr/451e4a/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "title": "İlk karşılaşma",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 2,
+                    "external": "video://508a3f4a-ad48-490c-a60c-30977473114f",
+                    "image": "https://iaatv.tmgrup.com.tr/558b59/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/abi-1768326192377.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "2. Bölüm Fragmanı",
+                    "title": "A.B.İ.",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://72445588-18bd-4828-a42d-723eb2d2adb9",
+                    "image": "https://iaatv.tmgrup.com.tr/d77c87/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/besiktas-ankara-keciorengucu-persembe-2030da-atvde-1768306230378.jpg",
+                    "season": null,
+                    "showAd": true,
+                    "spot": "",
+                    "title": "Beşiktaş - Ankara Keçiörengücü",
+                    "videoTypeId": 12
+                }
+            ]
+        },
+        
+        
+        
+        
+        
+        {
+            "config": {
+                "cell": {
+                    "borderColor": "0AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 0,
+                    "ratio": 0.44
+                },
+                "icon": {
+                    "isActive": true,
+                    "position": "center",
+                    "size": 40,
+                    "type": "play"
+                },
+                "progressBar": {
+                    "isActive": true,
+                    "color": "FFFFFFFF",
+                },
+                "date": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 9,
+                    "fontType": "Overpass-semibold",
+                    "isActive": true,
+                    "maxLines": 1
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 9,
+                        "left": 1,
+                        "right": 1,
+                        "top": 1
+                    },
+                    "radius": 8,
+                    "size": "500x281",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFE97B40",
+                    "fontColorLight": "FFE97B40",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 3,
+                    "verticalAlignment": "top"
+                },
+                "widget": {
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 16,
+                        "right": 16,
+                        "top": 20
+                    },
+                    "rowCount": 1,
+                    "template": "program",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "text": "İzlemeye Devam Et",
+                    "redirectUrl": "ss"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "videos": [
+                {
+                    "episode": null,
+                    "external": "video://4cefe76b-b1a2-418e-8b0d-f9de02413d1f",
+                    "image": "https://iaatv.tmgrup.com.tr/16f524/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-savas-alaninda-ustalik-dersi-1768415140152.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "date": "YENİ BÖLÜM",
+                    "spot": "12. Bölüm",
+                    "title": "Kuruluş Orhan",
+                    "videoTypeId": 12,
+                    "currentDuration": 5345,
+                    "totalDuration": 8230
+                },
+                {
+                    "episode": null,
+                    "external": "video://e0ce48a3-29a1-4d1f-a05f-47c1e10676ce",
+                    "image": "https://iaatv.tmgrup.com.tr/faac73/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/polis-tarafindan-1-yildir-araniyordu-1768406778813.jpg",
+                    "season": 11,
+                    "showAd": true,
+                    "spot": "3125. Bölüm",
+                    "title": "Esra Erol'da",
+                    "videoTypeId": 12,
+                    "currentDuration": 5345,
+                    "totalDuration": 8230
+                },
+                {
+                    "episode": null,
+                    "external": "video://c3a7ddcd-cb4e-42df-977e-ea94c1aab2af",
+                    "image": "https://iaatv.tmgrup.com.tr/451e4a/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "2. Bölüm",
+                    "title": "A.B.İ",
+                    "videoTypeId": 12,
+                    "currentDuration": 5345,
+                    "totalDuration": 8230
+                },
+            ]
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF171920",
+                    "bgColorLight": "FF171920",
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 8,
+                    "ratio": 0.24
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 0,
+                    "size": "295x410",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 2
+                },
+                "widget": {
+                    "bgColorDark": "FF008B8B",
+                    "bgColorLight": "FF008B8B",
+                    "isGradient": true,
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 16,
+                        "right": 16,
+                        "top": 20
+                    },
+                    "rowCount": 1,
+                    "template": "cardFullImage1",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "spacer": 12,
+                    "text": "Canlı Yayınlar",
+                    "redirectUrl": "ss"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "news": [
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=96cc82ab-fc20-4cd4-8be1-9266434ef754",
+                    "image": "https://iaatv.tmgrup.com.tr/fe68fb/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2021/03/25/295x410/1616673694917.jpg",
+                    "title": "Karadayı"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=64c31827-2fb9-43e3-9e3c-1666ffc2d846",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622729644120.jpg",
+                    "title": "Kara Para Aşk"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=de68e8b2-4ec5-4321-8e81-1bfa2cef2a3f",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622731252683.jpg",
+                    "title": "Avrupa Yakası"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=075e6976-b2e3-4996-a93c-f1f44d4796eb",
+                    "image": "https://iatv.tmgrup.com.tr/2021/10/26/295x410/1635252285226.jpg",
+                    "title": "Eşkıya Dünyaya Hükümdar Olmaz"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=95d098f3-b364-4f97-9fff-e92d1928f2dd",
+                    "image": "https://iatv.tmgrup.com.tr/2021/03/25/295x410/1616672071318.jpg",
+                    "title": "Sen Anlat Karadeniz"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=b154ab4a-b910-4397-b49c-7a02a3aa36b5",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/04/295x410/1622803859586.jpg",
+                    "title": "Hercai"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=8e8dd321-1e95-42e0-b968-41dba6d8d13b",
+                    "image": "https://iaatv.tmgrup.com.tr/5a3597/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/06/11/1749637973793.jpg",
+                    "title": "Kuruluş Osman"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=459ef907-b5d8-4d72-aa7f-fc1d289ef93d",
+                    "image": "https://iaatv.tmgrup.com.tr/44c59c/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/02/21/295x410/1708517624712.jpg",
+                    "title": "Kardeşlerim"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=de359413-a741-4b81-a1d1-09184023a604",
+                    "image": "https://iaatv.tmgrup.com.tr/37ebfe/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/09/05/295x410/1725545448317.jpg",
+                    "title": "Bir Gece Masalı"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=3e6f97ea-ad61-4629-9927-16e63e97d0df",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622730381231.jpg",
+                    "title": "Ezel"
+                }
+            ]
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+            "config": {
+                "cell": {
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 0,
+                    "radius": 0,
+                    "ratio": 0.5,
+                    "shadowIsActive": true
+                },
+                "date": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 16,
+                    "fontType": "Overpass-semibold",
+                    "isActive": true,
+                    "maxLines": 1
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 10,
+                        "left": 10,
+                        "right": 8,
+                        "top": 10
+                    },
+                    "radius": 6,
+                    "size": "295x410",
+                    "weight": 0.45
+                },
+                "title": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 12,
+                    "fontType": "Overpass-semibold",
+                    "isActive": true,
+                    "isDynamicLines": true,
+                    "maxLines": 4
+                },
+                "widget": {
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 20,
+                        "left": 16,
+                        "right": 0,
+                        "top": 20
+                    },
+                    "template": "broadcast",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFA2A3A5",
+                    "fontColorLight": "FFA2A3A5",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "spacer": 12,
+                    "text": "YAYIN AKIŞI"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "streams": [
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "08",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/bdc502/295/410/247/0/634/537?u=https://iatv.tmgrup.com.tr/2026/01/19/kahvalti-haberleri-1768805676662.jpg",
+                    "minute": "00",
+                    "text": "08:00",
+                    "title": "Kahvaltı Haberleri"
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "10",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/ac8740/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2022/08/31/295x410/1661956802814.jpg",
+                    "minute": "00",
+                    "text": "10:00",
+                    "title": "Müge Anlı ile Tatlı Sert"
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "13",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/a74b32/295/410/193/0/581/539?u=https://iatv.tmgrup.com.tr/2026/01/19/atv-gun-ortasi-1768821097019.jpg",
+                    "minute": "00",
+                    "text": "13:00",
+                    "title": "atv Gün Ortası"
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "14",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/549b9d/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/02/26/1740578035444.jpg",
+                    "minute": "00",
+                    "text": "14:00",
+                    "title": "Mutfak Bahane"
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://livestream",
+                    "hour": "16",
+                    "isLive": true,
+                    "image": "https://iaatv.tmgrup.com.tr/82743a/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/08/30/1756554919638.jpg",
+                    "minute": "00",
+                    "text": "16:00",
+                    "title": "Esra Erol'da"
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "19",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/a8d0bf/295/410/25/0/232/287?u=https://iatv.tmgrup.com.tr/2026/01/16/atv-ana-haber-1768564266109.jpg",
+                    "minute": "00",
+                    "text": "19:00",
+                    "title": "atv Ana Haber"
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "20",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/4bef53/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/11/24/1763986313791.jpg",
+                    "minute": "00",
+                    "text": "20:00",
+                    "title": "A.B.İ."
+                },
+                {
+                    "dayName": "Pazartesi",
+                    "external": "selected://broadcast",
+                    "hour": "23",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/c3bc8b/295/410/0/0/1473/2048?u=https://iatv.tmgrup.com.tr/2025/11/22/1763802118518.jpg",
+                    "minute": "40",
+                    "text": "23:40",
+                    "title": "Kuruluş Orhan"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "02",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/37ebfe/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/09/05/295x410/1725545448317.jpg",
+                    "minute": "40",
+                    "text": "02:40",
+                    "title": "Bir Gece Masalı"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "05",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/f11931/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2023/09/06/295x410/1694009352734.jpg",
+                    "minute": "00",
+                    "text": "05:00",
+                    "title": "Aldatmak"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "08",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/ef9243/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2023/09/14/295x410/1694690182502.jpg",
+                    "minute": "00",
+                    "text": "08:00",
+                    "title": "Kahvaltı Haberleri"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "10",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/ac8740/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2022/08/31/295x410/1661956802814.jpg",
+                    "minute": "00",
+                    "text": "10:00",
+                    "title": "Müge Anlı ile Tatlı Sert"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "13",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/e16ebb/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/08/22/295x410/1724334019089.jpg",
+                    "minute": "00",
+                    "text": "13:00",
+                    "title": "atv Gün Ortası"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "14",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/549b9d/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/02/26/1740578035444.jpg",
+                    "minute": "00",
+                    "text": "14:00",
+                    "title": "Mutfak Bahane"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "16",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/82743a/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/08/30/1756554919638.jpg",
+                    "minute": "00",
+                    "text": "16:00",
+                    "title": "Esra Erol'da"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "19",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/70c077/295/410/35/0/242/287?u=https://iatv.tmgrup.com.tr/2026/01/16/atv-ana-haber-1768564283332.jpg",
+                    "minute": "00",
+                    "text": "19:00",
+                    "title": "atv Ana Haber"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "20",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/4bef53/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/11/24/1763986313791.jpg",
+                    "minute": "00",
+                    "text": "20:00",
+                    "title": "ABİ"
+                },
+                {
+                    "dayName": "Salı",
+                    "external": "selected://broadcast",
+                    "hour": "23",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/4bef53/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/11/24/1763986313791.jpg",
+                    "minute": "30",
+                    "text": "23:30",
+                    "title": "ABİ"
+                },
+                {
+                    "dayName": "Çarşamba",
+                    "external": "selected://broadcast",
+                    "hour": "02",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/37ebfe/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/09/05/295x410/1725545448317.jpg",
+                    "minute": "30",
+                    "text": "02:30",
+                    "title": "Bir Gece Masalı"
+                },
+                {
+                    "dayName": "Çarşamba",
+                    "external": "selected://broadcast",
+                    "hour": "05",
+                    "isLive": false,
+                    "image": "https://iaatv.tmgrup.com.tr/f11931/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2023/09/06/295x410/1694009352734.jpg",
+                    "minute": "00",
+                    "text": "05:00",
+                    "title": "Aldatmak"
+                }
+            ]
+        },
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF171920",
+                    "bgColorLight": "FF171920",
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 8,
+                    "ratio": 0.41
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 0,
+                    "size": "295x410",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": false,
+                    "maxLines": 2
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 24,
+                        "left": 16,
+                        "right": 16,
+                        "top": 0
+                    },
+                    "rowCount": 1,
+                    "template": "cardFullImage1",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFA2A3A5",
+                    "fontColorLight": "FFA2A3A5",
+                    "fontSize": 18,
+                    "fontType": "Overpass-semibold",
+                    "spacer": 12,
+                    "text": "DİZİLER"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "news": [
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=1906a06e-8f12-4351-8fa3-6cce912df573",
+                    "image": "https://iaatv.tmgrup.com.tr/4bef53/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/11/24/1763986313791.jpg",
+                    "title": "A.B.İ."
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=1bd05cf8-aebb-4d2b-8e16-e5649a978428",
+                    "image": "https://iaatv.tmgrup.com.tr/c3bc8b/295/410/0/0/1473/2048?u=https://iatv.tmgrup.com.tr/2025/11/22/1763802118518.jpg",
+                    "title": "Kuruluş Orhan"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=1564a4e5-620c-44b6-9d69-b849d3f91656",
+                    "image": "https://iaatv.tmgrup.com.tr/35c4bf/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/12/23/1766513611827.jpg",
+                    "title": "Aynı Yağmur Altında"
+                }
+            ]
+        },
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF171920",
+                    "bgColorLight": "FF171920",
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 8,
+                    "ratio": 0.41
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 0,
+                    "size": "295x410",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": false,
+                    "maxLines": 2
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 24,
+                        "left": 16,
+                        "right": 16,
+                        "top": 0
+                    },
+                    "rowCount": 1,
+                    "template": "cardFullImage1",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFA2A3A5",
+                    "fontColorLight": "FFA2A3A5",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "spacer": 12,
+                    "text": "PROGRAMLAR"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "news": [
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=114a51ee-ff4f-43f6-a557-38d4e169d67d",
+                    "image": "https://iaatv.tmgrup.com.tr/ac8740/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2022/08/31/295x410/1661956802814.jpg",
+                    "title": "Müge Anlı ile Tatlı Sert"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=9fe6a82c-f95c-4b03-ad40-25edf101ab18",
+                    "image": "https://iaatv.tmgrup.com.tr/82743a/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/08/30/1756554919638.jpg",
+                    "title": "Esra Erol'da"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=13cd6dd6-557e-4a1c-81f2-fe76b926d801",
+                    "image": "https://iaatv.tmgrup.com.tr/549b9d/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/02/26/1740578035444.jpg",
+                    "title": "Mutfak Bahane"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=c79f4908-5896-45d6-aa90-1248b4d4934e",
+                    "image": "https://iaatv.tmgrup.com.tr/cfbe8f/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/09/22/1758531096215.jpg",
+                    "title": "Kim Milyoner Olmak İster?"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=2b887db6-4ac7-43b2-abc7-bc7f6d57050e",
+                    "image": "https://iaatv.tmgrup.com.tr/65b09a/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2022/08/30/295x410/1661875893876.jpg",
+                    "title": "Nihat Hatipoğlu ile Dosta Doğru"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=9e142aa5-67c1-49a9-9677-3b074c30590b",
+                    "image": "https://iaatv.tmgrup.com.tr/d59498/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2022/08/30/295x410/1661875829987.jpg",
+                    "title": "Nihat Hatipoğlu Sorularınızı Cevaplıyor"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=f09ca990-5f30-452c-b500-08741d68ddf7",
+                    "image": "https://iaatv.tmgrup.com.tr/99fe72/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/06/04/295x410/1717493399832.jpg",
+                    "title": "Dizi TV"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=7ab560e4-2a7f-43cf-862f-fb8083076120",
+                    "image": "https://iaatv.tmgrup.com.tr/eb7e58/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2022/08/31/295x410/1661941969908.jpg",
+                    "title": "Nihat Hatipoğlu ile Kur'an ve Sünnet"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=780e11de-70f1-4cac-a822-5056af2a4648",
+                    "image": "https://iatv.tmgrup.com.tr/2024/04/09/295x410/1712643832543.jpg",
+                    "title": "Filmler"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=e7162286-0a4e-4457-887a-0f550d82b73b",
+                    "image": "https://iaatv.tmgrup.com.tr/9d8ec0/295/410/0/0/0/0?u=https://iatv.tmgrup.com.tr/2025/07/10/1752155871586.jpg",
+                    "title": "Mevlid ve Süleyman Çelebi"
+                }
+            ]
+        },
+
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF171920",
+                    "bgColorLight": "FF171920",
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 8,
+                    "ratio": 0.76
+                },
+                "date": {
+                    "fontColorDark": "99ffffff",
+                    "fontColorLight": "99ffffff",
+                    "fontSize": 12,
+                    "fontType": "Overpass-regular",
+                    "isActive": false,
+                    "maxLines": 1
+                },
+                "icon": {
+                    "isActive": true,
+                    "position": "topRight",
+                    "size": 40,
+                    "type": "play"
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 8,
+                    "size": "500x281",
+                    "weight": 1
+                },
+                "spot": {
+                    "align": "center",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 15,
+                    "fontType": "Overpass-bold",
+                    "gradient": true,
+                    "isActive": true,
+                    "isDynamicLines": true,
+                    "maxLines": 1
+                },
+                "title": {
+                    "align": "center",
+                    "fontColorDark": "FFE97B40",
+                    "fontColorLight": "FFE97B40",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "gradient": true,
+                    "isActive": true,
+                    "isDynamicLines": true,
+                    "maxLines": 2
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "isPlaylist": true,
+                    "padding": {
+                        "bottom": 24,
+                        "left": 16,
+                        "right": 16,
+                        "top": 0
+                    },
+                    "rowCount": 1,
+                    "template": "cardFullImage3",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFA2A3A5",
+                    "fontColorLight": "FFA2A3A5",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "text": "EN ÇOK İZLENENLER"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "videos": [
+                {
+                    "episode": 1,
+                    "external": "video://e1fbe55c-d9e0-4140-87ed-d4600c6ae3ab",
+                    "image": "https://iaatv.tmgrup.com.tr/3581fa/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/ayni-yagmur-altinda-1768590532294.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "1. Bölüm Fragmanı",
+                    "title": "Aynı Yağmur Altında",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": 2,
+                    "external": "video://ac942087-0617-4e58-ad5c-b6b18998d3ec",
+                    "image": "https://iaatv.tmgrup.com.tr/fb03ad/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/abi-1768581352313.jpg",
+                    "season": null,
+                    "showAd": false,
+                    "spot": "2. Bölüm Fragmanı",
+                    "title": "A.B.İ.",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://edd8ab98-5334-40c8-9b6d-af8fa646f8a6",
+                    "image": "https://iaatv.tmgrup.com.tr/76aea5/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/16/abi01blbuaksamv345sn-1768548733618.jpg",
+                    "season": null,
+                    "showAd": true,
+                    "spot": "",
+                    "title": "A.B.İ. 1. Bölüm tekrarıyla bu akşam 20.00'de atv'de",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://1dbfb759-88da-48fb-8c6b-98832ea7692a",
+                    "image": "https://iaatv.tmgrup.com.tr/5ee80d/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/15/kandiliniz-mubarek-olsun-1768471487213.jpg",
+                    "season": 18,
+                    "showAd": true,
+                    "spot": "15 Ocak 2026 Perşembe",
+                    "title": "Kandiliniz Mübarek Olsun",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 11,
+                    "external": "video://ce1fbcf4-f250-4b76-b498-bac20367ca85",
+                    "image": "https://iaatv.tmgrup.com.tr/ab7c09/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/kurulus-orhan-1768419275959.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "11. Bölüm Fragmanı",
+                    "title": "Kuruluş Orhan",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://4cefe76b-b1a2-418e-8b0d-f9de02413d1f",
+                    "image": "https://iaatv.tmgrup.com.tr/16f524/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-savas-alaninda-ustalik-dersi-1768415140152.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "title": "Orhan Bey’den savaş alanında ustalık dersi...",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://e0ce48a3-29a1-4d1f-a05f-47c1e10676ce",
+                    "image": "https://iaatv.tmgrup.com.tr/faac73/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/polis-tarafindan-1-yildir-araniyordu-1768406778813.jpg",
+                    "season": 11,
+                    "showAd": true,
+                    "spot": "14 Ocak 2026 Çarşamba",
+                    "title": "Polis tarafından 1 yıldır aranıyordu!",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": null,
+                    "external": "video://c3a7ddcd-cb4e-42df-977e-ea94c1aab2af",
+                    "image": "https://iaatv.tmgrup.com.tr/451e4a/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "season": 1,
+                    "showAd": true,
+                    "spot": "",
+                    "title": "İlk karşılaşma",
+                    "videoTypeId": 12
+                },
+                {
+                    "episode": 2,
+                    "external": "video://508a3f4a-ad48-490c-a60c-30977473114f",
+                    "image": "https://iaatv.tmgrup.com.tr/558b59/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/abi-1768326192377.jpg",
+                    "season": 1,
+                    "showAd": false,
+                    "spot": "2. Bölüm Fragmanı",
+                    "title": "A.B.İ.",
+                    "videoTypeId": 11
+                },
+                {
+                    "episode": null,
+                    "external": "video://72445588-18bd-4828-a42d-723eb2d2adb9",
+                    "image": "https://iaatv.tmgrup.com.tr/d77c87/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/besiktas-ankara-keciorengucu-persembe-2030da-atvde-1768306230378.jpg",
+                    "season": null,
+                    "showAd": true,
+                    "spot": "",
+                    "title": "Beşiktaş - Ankara Keçiörengücü",
+                    "videoTypeId": 12
+                }
+            ]
+        },
+        {
+            "config": {
+                "cell": {
+                    "bgColorDark": "FF171920",
+                    "bgColorLight": "FF171920",
+                    "borderColor": "0AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 0,
+                    "ratio": 0.46
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 9,
+                        "left": 1,
+                        "right": 1,
+                        "top": 1
+                    },
+                    "radius": 8,
+                    "size": "500x281",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFE97B40",
+                    "fontColorLight": "FFE97B40",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 3,
+                    "verticalAlignment": "top"
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 16,
+                        "left": 16,
+                        "right": 16,
+                        "top": 0
+                    },
+                    "rowCount": 1,
+                    "template": "cardTopImage1",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFA2A3A5",
+                    "fontColorLight": "FFA2A3A5",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "text": "EDİTÖRÜN SEÇTİKLERİ"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "videos": [
+                {
+                    "external": "video://f61f064c-8186-4a91-a0dc-3cbf2696f226",
+                    "image": "https://iaatv.tmgrup.com.tr/cf4d2b/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/18/turkiyede-hangi-adda-bir-ilce-yoktur-1768766319892.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/18/turkiyede-hangi-adda-bir-ilce-yoktur-1768766319892.jpg",
+                    "showAd": true,
+                    "title": "Türkiye'de hangi adda bir ilçe yoktur?"
+                },
+                {
+                    "external": "video://2d78c202-7294-47c4-8fd3-1f24c30a07fd",
+                    "image": "https://iaatv.tmgrup.com.tr/88b9a6/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/18/2025te-ramazan-ayinda-turkiyede-hangi-iki-ilde-iftar-vakti-ayni-tarihte-saat-ve-dakika-olarak-hic-ayni-olmamis-1768767630709.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/18/2025te-ramazan-ayinda-turkiyede-hangi-iki-ilde-iftar-vakti-ayni-tarihte-saat-ve-dakika-olarak-hic-ayni-olmamis-1768767630709.jpg",
+                    "showAd": true,
+                    "title": "2025'te \"Ramazan ayı\"nda, Türkiye'de hangi iki ilde iftar vakti, aynı tarihte, saat ve dakika olarak hiç aynı olmamıştır?"
+                },
+                {
+                    "external": "video://61536a98-fc3b-4523-82a0-1a206505056d",
+                    "image": "https://iaatv.tmgrup.com.tr/605393/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/kurtaracagim-seni-1768324568617.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/13/kurtaracagim-seni-1768324568617.jpg",
+                    "showAd": true,
+                    "title": "Kurtaracağım seni!"
+                },
+                {
+                    "external": "video://c3a7ddcd-cb4e-42df-977e-ea94c1aab2af",
+                    "image": "https://iaatv.tmgrup.com.tr/451e4a/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/13/ilk-karsilasma-1768327477489.jpg",
+                    "showAd": true,
+                    "title": "İlk karşılaşma"
+                },
+                {
+                    "external": "video://0c79eea6-0bcd-40bf-ae51-f5fda0af304d",
+                    "image": "https://iaatv.tmgrup.com.tr/ee8f19/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-buyuk-zafer-1768421999024.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/14/orhan-beyden-buyuk-zafer-1768421999024.jpg",
+                    "showAd": true,
+                    "title": "Orhan Bey'den büyük zafer..."
+                },
+                {
+                    "external": "video://fc0bdb22-258a-40fb-a839-0a678492d655",
+                    "image": "https://iaatv.tmgrup.com.tr/df8e6e/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/14/osman-bey-son-yolculuguna-ugurlaniyor-1768423651332.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/14/osman-bey-son-yolculuguna-ugurlaniyor-1768423651332.jpg",
+                    "showAd": true,
+                    "title": "Osman Bey son yolculuğuna uğurlanıyor"
+                },
+                {
+                    "external": "video://260d2a7b-2606-4a28-a1f4-1aea330b1a92",
+                    "image": "https://iaatv.tmgrup.com.tr/7abb89/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2026/01/11/yaklasik-75-milyon-begeniyle-instagrama-yuklenmis-fotograflar-arasinda-en-cok-begeni-alan-hangisinin-fotografi-1768160100007.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/11/yaklasik-75-milyon-begeniyle-instagrama-yuklenmis-fotograflar-arasinda-en-cok-begeni-alan-hangisinin-fotografi-1768160100007.jpg",
+                    "showAd": true,
+                    "title": "Yaklaşık 75 milyon beğeniyle, Instagram'a yüklenmiş fotoğraflar arasında en çok beğeni alan hangisinin fotoğrafıdır?"
+                },
+                {
+                    "external": "video://6855ebaa-1277-4b6e-97e2-b2c45243b300",
+                    "image": "https://iaatv.tmgrup.com.tr/c4c94c/500/281/0/0/1920/1080?u=https://iatv.tmgrup.com.tr/2025/12/28/gunes-sistemindeki-sekiz-gezegenden-hangi-dordunun-halkalari-vardir-1766952212264.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2025/12/28/gunes-sistemindeki-sekiz-gezegenden-hangi-dordunun-halkalari-vardir-1766952212264.jpg",
+                    "showAd": true,
+                    "title": "Güneş Sistemi'ndeki sekiz gezegenden hangi dördünün halkaları vardır?"
+                }
+            ]
+        }
+    ],
+    "config": {
+        "navbarConfig": {
+            "tintColorLight": "FFFFFFFF",
+            "tintColorDark": "FFFFFFFF",
+            "bgColorLight": "FF000000",
+            "bgColorDark": "FF000000",
+            "isTopbarTransparent": false,
+            "topBarLeftItems": [
+                {
+                    "isActive": false,
+                    "image": "https://i.tmgrup.com.tr/mobileapi/atv/topbar_logo.png",
+                    "size": "40x40",
+                    "type": "logo",
+                    "isColorFilter": false
+                }
+            ],
+            "topBarRightItems": [
+                {
+                    "isActive": true,
+                    "external": "selected://livestream",
+                    "image": "https://i.tmgrup.com.tr/mobileapi/atv/topbar_canli_yayin.png",
+                    "size": "70x23",
+                    "type": "custom",
+                    "isColorFilter": false
+                },
+                {
+                    "isActive": true,
+                    "external": "search:///v2/link/9dce47cbed",
+                    "image": "https://i.tmgrup.com.tr/mobileapi/atv/magnifying-glass.png",
+                    "size": "38x22",
+                    "type": "custom"
+                },
+                {
+                    "isActive": true,
+                    "external": "internal://https://www.ahaber.com.tr/turkiye-kupasi",
+                    "image": "https://i.tmgrup.com.tr/mobileapi/atv/topbar_left_menu_icon.png",
+                    "size": "28x28",
+                    "type": "leftMenu"
+                }
+            ]
+        },
+        "layoutConfig": {
+            "bgColorLight": "FF141518",
+            "bgColorDark": "FF141518"
+        },
+        "requestConfig": {
+            "time": 900,
+            "isActive": true,
+            "scrollToTop": true,
+            "lastPublish": {
+                "isActive": false,
+                "url": "/category/last-publish-date/c0fbbd0d-b4cb-4e5b-b516-9993b9e506c3/74f956b2-db76-46da-99ec-7b43a25fb217"
+            }
+        }
+    },
+    "stats": {
+        "firebase": {
+            "articleCompleted": null,
+            "event": {
+                "dimensions": {
+                    "page_location": "https://www.atv.com.tr/",
+                    "page_title": "Dizi atv'de izlenir | En iyi yerli diziler, programlar atv'de!",
+                    "page_type": "home",
+                    "platform": "[platform]",
+                    "reference": "2603b34e-a8c2-4cb6-9a33-0b22f87627d6"
+                },
+                "key": "page_view"
+            },
+            "isActiveAndroid": true,
+            "isActiveiOS": true,
+            "isActiveWebSite": false,
+            "screenView": {
+                "dimensions": {
+                    "cd1": "Anasayfa",
+                    "cd2": "2603b34e-a8c2-4cb6-9a33-0b22f87627d6",
+                    "cd3": "-",
+                    "cd4": "Dizi atv'de izlenir | En iyi yerli diziler, programlar atv'de!",
+                    "cd5": "Kategori",
+                    "cd6": "-",
+                    "cd7": "0",
+                    "cd8": "-",
+                    "content": null,
+                    "page": {
+                        "page_path": "/",
+                        "page_title": "Dizi atv'de izlenir | En iyi yerli diziler, programlar atv'de!"
+                    },
+                    "screenClass": "/",
+                    "screenName": "Dizi atv'de izlenir | En iyi yerli diziler, programlar atv'de!"
+                },
+                "key": "screen_view"
+            },
+            "videoPlay": null
+        },
+        "gemius": {
+            "android": {
+                "id": "zUzgkm7gP5Wcp4OhMk3Ak7b.nFkYQ7.RyiEjLBdXWm7.47",
+                "isActive": true
+            },
+            "iOS": {
+                "id": "zU1AUm7Yh2M2gStlqVW52LbtrtKYuoOiCnDNSFl8Qo3.X7",
+                "isActive": true
+            },
+            "webSite": null
+        },
+        "tiak": {
+            "isActiveAndroid": false,
+            "isActiveiOS": false
+        }
+    }
+}

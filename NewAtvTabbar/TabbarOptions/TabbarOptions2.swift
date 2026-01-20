@@ -35,7 +35,7 @@ struct TabbarOptions2: View {
     }
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             // Native TabView
             TabView(selection: $selectedTab) {
                 HomeView()
@@ -53,17 +53,19 @@ struct TabbarOptions2: View {
                 AllView()
                     .tag(TabbarOptions2Item.all)
             }
+            .padding(.bottom, 50)
             
             // Özel TabBar Overlay
-            VStack {
-                Spacer()
-                TabbarOptions2Overlay(selectedTab: $selectedTab)
-                    .padding(.bottom, 7.0)
-                    .ignoresSafeArea()
-            }
+            TabbarOptions2Overlay(selectedTab: $selectedTab)
+                .background(
+                    Color("bg_color")
+                        .ignoresSafeArea(edges: .bottom)
+                )
+                .padding(.bottom, -16)
+
         }
         .background(Color("bg_color").ignoresSafeArea())
-        .ignoresSafeArea()
+        .ignoresSafeArea(.keyboard)
     }
 }
 
