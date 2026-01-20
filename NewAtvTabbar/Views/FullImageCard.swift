@@ -9,32 +9,39 @@ import SwiftUI
 
 struct FullImageCard: View {
     let item: NewsItem
-    var itemCount: Int = 1
     var config: SectionConfig?
     
-    private var cardWidth: CGFloat {
-        return LayoutUtils.calculateCellWidth(config: config, itemCount: itemCount)
-    }
-    
-    private var imageHeight: CGFloat {
-        return LayoutUtils.calculateImageHeight(config: config, frameWidth: cardWidth)
-    }
-    
-    private var imageWidth: CGFloat {
-        return LayoutUtils.calculateImageWidth(calculatedHeight: imageHeight, config: config)
+    private var title: String? {
+        if config?.title?.isActive == true, let title = item.title  {
+            return title
+        }
+        return nil
     }
     
     var body: some View {
-        UniversalCardContainer(config: config, width: cardWidth) {
-            VStack(alignment: .leading, spacing: 0) {
+        UniversalCardContainer(config: config) { containerWidth in
+            let imagePadding = config?.image?.padding?.edgeInsets ?? EdgeInsets()
+            let verticalImagePadding = imagePadding.top + imagePadding.bottom
+            let rawImageHeight = LayoutUtils.calculateImageHeight(config: config, frameWidth: containerWidth)
+            
+            let hasTitle = title != nil
+            let titleHeight: CGFloat = hasTitle ? 30 : 0
+            let spacing: CGFloat = 6
+            
+            let finalImageHeight = rawImageHeight + verticalImagePadding
+            let contentHeight = finalImageHeight + (hasTitle ? (titleHeight + spacing) : 0)
+            
+            
+            VStack(alignment: .center, spacing: spacing) {
                 // Image Area
-                UniversalImageView(
-                    url: item.image,
-                    frameWidth: cardWidth,
-                    config: config
-                )
-                .frame(width: imageWidth, height: imageHeight)
+                UniversalImageView(url: item.image, frameWidth: containerWidth, config: config)
+                
+                // Text Area
+                if let title = title  {
+                    UniversalTitleView(text: title, config: config)
+                }
             }
+            .frame(height: contentHeight)
         }
     }
 }

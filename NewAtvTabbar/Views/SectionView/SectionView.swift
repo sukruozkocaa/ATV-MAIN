@@ -21,7 +21,6 @@ struct SectionView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            
             // Header
             if let widgetTitle = data.config.widgetTitle?.text {
                 HStack(spacing: 8) {
@@ -35,7 +34,6 @@ struct SectionView: View {
                     Spacer()
                 }
                 .padding(.horizontal, CGFloat(data.config.widget?.padding?.left ?? 20))
-                .padding(.top, CGFloat(data.config.widget?.padding?.top ?? 20))
                 .padding(.bottom, CGFloat(data.config.widgetTitle?.spacer ?? 10))
             }
             
@@ -44,6 +42,7 @@ struct SectionView: View {
         }
         .background(backgroundView)
         .zIndex(data.config.widget?.isGradient == true ? -1 : 0)
+        .padding(.top,  CGFloat(data.config.widget?.padding?.top ?? 20))
         .padding(.bottom, CGFloat(data.config.widget?.padding?.bottom ?? 20))
     }
     

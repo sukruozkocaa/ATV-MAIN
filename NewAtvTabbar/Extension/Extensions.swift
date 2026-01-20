@@ -48,14 +48,8 @@ extension Color {
     var bottomScrim: LinearGradient {
         LinearGradient(
             colors: [
-                self.opacity(0),
-                self.opacity(0.1),
-                self.opacity(0.2),
-                self.opacity(0.35),
-                self.opacity(0.5),
-                self.opacity(0.7),
-                self.opacity(0.85),
-                self.opacity(1)
+                .clear,
+                self
             ],
             startPoint: .top,
             endPoint: .bottom

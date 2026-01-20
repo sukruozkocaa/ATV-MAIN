@@ -11,8 +11,8 @@
         {
             "config": {
                 "cell": {
-                    "bgColorDark": "FF383A40",
-                    "bgColorLight": "FF172338",
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
                     "borderColor": "1AFFFFFF",
                     "borderIsActive": false,
                     "radius": 0,
@@ -74,7 +74,7 @@
                     "interval": 8,
                     "isActiveTiak": true,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 0,
                         "right": 0,
                         "top": 0
@@ -137,8 +137,8 @@
         {
             "config": {
                 "cell": {
-                    "bgColorDark": "FF000000",
-                    "bgColorLight": "FF000000",
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
                     "borderColor": "0AFFFFFF",
                     "borderIsActive": false,
                     "itemSpacer": 12,
@@ -185,10 +185,10 @@
                     "bgColorLight": "FF141518",
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 20
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "program",
@@ -326,8 +326,8 @@
         {
             "config": {
                 "cell": {
-                    "bgColorDark": "FF000000",
-                    "bgColorLight": "FF000000",
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
                     "borderColor": "0AFFFFFF",
                     "borderIsActive": false,
                     "itemSpacer": 12,
@@ -368,10 +368,10 @@
                     "bgColorLight": "FF141518",
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 20
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "program",
@@ -466,8 +466,8 @@
         {
             "config": {
                 "cell": {
-                    "bgColorDark": "FF000000",
-                    "bgColorLight": "FF000000",
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
                     "borderColor": "0AFFFFFF",
                     "borderIsActive": false,
                     "itemSpacer": 12,
@@ -506,10 +506,10 @@
                     "bgColorLight": "FF141518",
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 20
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "program",
@@ -655,10 +655,10 @@
                 "widget": {
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 20
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "program",
@@ -738,12 +738,10 @@
         {
             "config": {
                 "cell": {
-                    "bgColorDark": "FF171920",
-                    "bgColorLight": "FF171920",
                     "borderColor": "1AFFFFFF",
                     "borderIsActive": false,
                     "itemSpacer": 12,
-                    "radius": 8,
+                    "radius": 0,
                     "ratio": 0.24
                 },
                 "image": {
@@ -753,7 +751,7 @@
                         "right": 0,
                         "top": 0
                     },
-                    "radius": 0,
+                    "radius": 8,
                     "size": "295x410",
                     "weight": 1
                 },
@@ -772,10 +770,10 @@
                     "isGradient": true,
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 20
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "cardFullImage1",
@@ -795,9 +793,24 @@
             "isActiveIOS": true,
             "news": [
                 {
+                    "external": "apilink:///v2/link/105099330a?cid=075e6976-b2e3-4996-a93c-f1f44d4796eb",
+                    "image": "https://iatv.tmgrup.com.tr/2021/10/26/295x410/1635252285226.jpg",
+                    "title": "EDHO"
+                },
+                {
                     "external": "apilink:///v2/link/105099330a?cid=96cc82ab-fc20-4cd4-8be1-9266434ef754",
                     "image": "https://iaatv.tmgrup.com.tr/fe68fb/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2021/03/25/295x410/1616673694917.jpg",
                     "title": "Karadayı"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=3e6f97ea-ad61-4629-9927-16e63e97d0df",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622730381231.jpg",
+                    "title": "Ezel"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=b154ab4a-b910-4397-b49c-7a02a3aa36b5",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/04/295x410/1622803859586.jpg",
+                    "title": "Hercai"
                 },
                 {
                     "external": "apilink:///v2/link/105099330a?cid=64c31827-2fb9-43e3-9e3c-1666ffc2d846",
@@ -810,19 +823,9 @@
                     "title": "Avrupa Yakası"
                 },
                 {
-                    "external": "apilink:///v2/link/105099330a?cid=075e6976-b2e3-4996-a93c-f1f44d4796eb",
-                    "image": "https://iatv.tmgrup.com.tr/2021/10/26/295x410/1635252285226.jpg",
-                    "title": "Eşkıya Dünyaya Hükümdar Olmaz"
-                },
-                {
                     "external": "apilink:///v2/link/105099330a?cid=95d098f3-b364-4f97-9fff-e92d1928f2dd",
                     "image": "https://iatv.tmgrup.com.tr/2021/03/25/295x410/1616672071318.jpg",
                     "title": "Sen Anlat Karadeniz"
-                },
-                {
-                    "external": "apilink:///v2/link/105099330a?cid=b154ab4a-b910-4397-b49c-7a02a3aa36b5",
-                    "image": "https://iatv.tmgrup.com.tr/2021/06/04/295x410/1622803859586.jpg",
-                    "title": "Hercai"
                 },
                 {
                     "external": "apilink:///v2/link/105099330a?cid=8e8dd321-1e95-42e0-b968-41dba6d8d13b",
@@ -838,11 +841,6 @@
                     "external": "apilink:///v2/link/105099330a?cid=de359413-a741-4b81-a1d1-09184023a604",
                     "image": "https://iaatv.tmgrup.com.tr/37ebfe/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/09/05/295x410/1725545448317.jpg",
                     "title": "Bir Gece Masalı"
-                },
-                {
-                    "external": "apilink:///v2/link/105099330a?cid=3e6f97ea-ad61-4629-9927-16e63e97d0df",
-                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622730381231.jpg",
-                    "title": "Ezel"
                 }
             ]
         },
@@ -857,7 +855,37 @@
         
         
         
-        
+        {
+            "config": {
+              "image": {
+                "padding": {
+                  "bottom": 0,
+                  "left": 0,
+                  "right": 0,
+                  "top": 0
+                },
+                "size": "716x160",
+                "weight": 1
+              },
+              "widget": {
+                "columnCount": 1,
+                "padding": {
+                  "bottom": 16,
+                  "left": 16,
+                  "right": 16,
+                  "top": 16
+                },
+                "template": "singleImage",
+                "type": "horizontal"
+              }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "singleImage": {
+              "external": "reels://v1",
+              "src": "https://iaatv.tmgrup.com.tr/bd9634/0/0/0/0/0/0?u=https://iatv.tmgrup.com.tr/api/2025/08/01/2adf7a46-9d35-432c-a56c-d329e7927878.png"
+            }
+          },
         
         
         
@@ -893,6 +921,8 @@
         {
             "config": {
                 "cell": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
                     "borderColor": "1AFFFFFF",
                     "borderIsActive": false,
                     "itemSpacer": 0,
@@ -931,10 +961,10 @@
                 "widget": {
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 20,
+                        "bottom": 16,
                         "left": 16,
                         "right": 0,
-                        "top": 20
+                        "top": 16
                     },
                     "template": "broadcast",
                     "type": "horizontal"
@@ -1156,8 +1186,8 @@
         {
             "config": {
                 "cell": {
-                    "bgColorDark": "FF171920",
-                    "bgColorLight": "FF171920",
+                    "bgColorDark": "FF000000",
+                    "bgColorLight": "FF000000",
                     "borderColor": "1AFFFFFF",
                     "borderIsActive": false,
                     "itemSpacer": 12,
@@ -1189,10 +1219,10 @@
                     "bgColorLight": "FF141518",
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 24,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 0
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "cardFullImage1",
@@ -1241,8 +1271,8 @@
                 "image": {
                     "padding": {
                         "bottom": 0,
-                        "left": 0,
-                        "right": 0,
+                        "left": 10,
+                        "right": 10,
                         "top": 0
                     },
                     "radius": 0,
@@ -1263,10 +1293,10 @@
                     "bgColorLight": "FF141518",
                     "columnCount": 1,
                     "padding": {
-                        "bottom": 24,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 0
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "cardFullImage1",
@@ -1401,7 +1431,7 @@
                     "columnCount": 1,
                     "isPlaylist": true,
                     "padding": {
-                        "bottom": 24,
+                        "bottom": 16,
                         "left": 16,
                         "right": 16,
                         "top": 0
@@ -1563,7 +1593,7 @@
                         "bottom": 16,
                         "left": 16,
                         "right": 16,
-                        "top": 0
+                        "top": 16
                     },
                     "rowCount": 1,
                     "template": "cardTopImage1",

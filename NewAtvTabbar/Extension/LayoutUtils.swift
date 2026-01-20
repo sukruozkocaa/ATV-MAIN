@@ -61,22 +61,13 @@ struct LayoutUtils {
         return 0
     }
     
-    static func calculateCellWidth(config: SectionConfig?, itemCount: Int) -> CGFloat {
+    static func calculateCellWidth(config: SectionConfig?) -> CGFloat {
         guard let config = config else { return 0 }
         
         let screenWidth = UIScreen.main.bounds.width
         let columnCount = Double(config.widget?.columnCount ?? 1)
         let rowCount = config.widget?.rowCount ?? 1
-
-        let verticalForcedTemplates: [SectionTemplate?] = [
-            .cardLeftImage1, .cardLeftImage2,
-            .columnistLeftImage1, .columnistLeftImage2, .columnistLeftImage3
-        ]
-        
-        var type = config.widget?.type
-        if verticalForcedTemplates.contains(config.widget?.template) && itemCount == 1 {
-            type = "vertical"
-        }
+        let type = config.widget?.type
         
         if let ratio = config.cell?.ratio, ratio > 0 {
             if type == "horizontal" {
@@ -91,7 +82,7 @@ struct LayoutUtils {
                     return screenWidth * CGFloat(ratio * (1.0 / columnCount))
                 } else {
 
-                    if itemCount == 1 && (ratio <= 0.0 || ratio >= 1.0) {
+                    if (ratio <= 0.0 || ratio >= 1.0) {
                         return screenWidth
                     } else {
                         return screenWidth * CGFloat(ratio)

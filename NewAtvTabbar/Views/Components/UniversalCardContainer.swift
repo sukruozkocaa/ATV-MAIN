@@ -7,25 +7,86 @@
 
 import SwiftUI
 
+//struct UniversalCardContainer<Content: View>: View {
+//    let config: SectionConfig?
+//    let width: CGFloat?
+//    let content: (CGFloat) -> Content
+//    var aligment: Alignment = .leading
+//    var isSingleImage: Bool = false
+//    
+//    var calculatedWidth: CGFloat {
+//        if let width { return width }
+//        
+//        if isSingleImage {
+//            let padding = config?.widget?.padding
+//            let horizontalInset = (padding?.left ?? 0) + (padding?.right ?? 0)
+//            return UIScreen.main.bounds.width - horizontalInset
+//        }
+//        
+//        return LayoutUtils.calculateCellWidth(config: config)
+//    }
+//    
+//    init(config: SectionConfig?, width: CGFloat? = nil, aligment: Alignment = .leading, isSingleImage: Bool = false, @ViewBuilder content: @escaping (CGFloat) -> Content) {
+//        self.config = config
+//        self.width = width
+//        self.aligment = aligment
+//        self.isSingleImage = isSingleImage
+//        self.content = content
+//    }
+//    
+//    var body: some View {
+//        content(calculatedWidth)
+//            .background(config?.cell?.bgColorDark.map { Color(hex: $0) } ?? Color.clear)
+//            .frame(width: calculatedWidth, alignment: aligment)
+//            .clipShape(RoundedRectangle(cornerRadius: config?.cell?.radius ?? 12))
+//            .overlay(
+//                RoundedRectangle(cornerRadius: config?.cell?.radius ?? 12)
+//                    .stroke(config?.cell?.borderColor.map { Color(hex: $0) } ?? .clear, lineWidth: (config?.cell?.borderIsActive ?? false) ? 1 : 0)
+//            )
+//    }
+//}
+
 struct UniversalCardContainer<Content: View>: View {
     let config: SectionConfig?
-    let width: CGFloat
-    let content: Content
+    let width: CGFloat?
+    let content: (CGFloat) -> Content
+    var aligment: Alignment = .leading
+    var isSingleImage: Bool = false
     
-    init(config: SectionConfig?, width: CGFloat, @ViewBuilder content: () -> Content) {
+    var calculatedWidth: CGFloat {
+        if let width { return width }
+        if isSingleImage {
+            let padding = config?.widget?.padding
+            let horizontalInset = (padding?.left ?? 0) + (padding?.right ?? 0)
+            return UIScreen.main.bounds.width - horizontalInset
+        }
+        return LayoutUtils.calculateCellWidth(config: config)
+    }
+    
+    init(config: SectionConfig?, width: CGFloat? = nil, aligment: Alignment = .leading, isSingleImage: Bool = false, @ViewBuilder content: @escaping (CGFloat) -> Content) {
         self.config = config
         self.width = width
-        self.content = content()
+        self.aligment = aligment
+        self.isSingleImage = isSingleImage
+        self.content = content
     }
     
     var body: some View {
-        content
+        // Dış Kartın Radius'u
+        let cardRadius = config?.cell?.radius ?? 12
+        
+        content(calculatedWidth)
+            .frame(width: calculatedWidth, alignment: aligment)
+            // Arka plan rengi padding olan yerlerde görünecektir
             .background(config?.cell?.bgColorDark.map { Color(hex: $0) } ?? Color.clear)
-            .cornerRadius(config?.cell?.radius ?? 12)
+            
+            // ADIM 3: En dış katmanı kes (Dış Radius)
+            .clipShape(RoundedRectangle(cornerRadius: cardRadius))
+            
+            // Opsiyonel: Dış çerçeve çizgisi (Border)
             .overlay(
-                RoundedRectangle(cornerRadius: config?.cell?.radius ?? 12)
+                RoundedRectangle(cornerRadius: cardRadius)
                     .stroke(config?.cell?.borderColor.map { Color(hex: $0) } ?? .clear, lineWidth: (config?.cell?.borderIsActive ?? false) ? 1 : 0)
             )
-            .frame(width: width)
     }
 }

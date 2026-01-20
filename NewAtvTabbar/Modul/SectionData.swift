@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 // MARK: - API Response
 struct APIResponse: Codable {
@@ -32,6 +33,7 @@ struct SectionData: Codable, Identifiable {
     let news: [NewsItem]?
     let streams: [StreamItem]?
     let videos: [VideoItem]?
+    let singleImage: SingleImageItem?
     
     let videoTypeID: Int?
     
@@ -41,7 +43,7 @@ struct SectionData: Codable, Identifiable {
     }
     
     enum CodingKeys: String, CodingKey {
-        case config, news, streams, videos
+        case config, news, streams, videos, singleImage
         case videoTypeID = "videoTypeId"
     }
 }
@@ -101,6 +103,17 @@ struct VideoItem: Codable, Identifiable {
         case title, spot, image, imageBig, external, showAd, episode, season, date
         case videoTypeID = "videoTypeId"
         case currentDuration, totalDuration
+    }
+}
+
+struct SingleImageItem: Codable, Identifiable {
+    let id = UUID()
+    let src: String?
+    let external: String?
+
+
+    enum CodingKeys: String, CodingKey {
+        case src, external
     }
 }
 
@@ -253,6 +266,15 @@ struct ImageConfig: Codable {
 
 struct Padding: Codable {
     let bottom, left, right, top: Double?
+    
+    var edgeInsets: EdgeInsets {
+        EdgeInsets(
+            top: CGFloat(top ?? 0),
+            leading: CGFloat(left ?? 0),
+            bottom: CGFloat(bottom ?? 0),
+            trailing: CGFloat(right ?? 0)
+        )
+    }
 }
 
 struct IconConfig: Codable {
