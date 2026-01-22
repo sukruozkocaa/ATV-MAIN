@@ -29,6 +29,7 @@ struct Meta: Codable {
 // MARK: - Section Data
 struct SectionData: Codable, Identifiable {
     let id = UUID()
+    let isActiveIOS: Bool?
     let config: SectionConfig
     let news: [NewsItem]?
     let streams: [StreamItem]?
@@ -43,7 +44,7 @@ struct SectionData: Codable, Identifiable {
     }
     
     enum CodingKeys: String, CodingKey {
-        case config, news, streams, videos, singleImage
+        case config, news, streams, videos, singleImage, isActiveIOS
         case videoTypeID = "videoTypeId"
     }
 }
@@ -168,6 +169,7 @@ enum SectionTemplate: String, Codable {
     case columnistLeftImage2
     case columnistLeftImage3
     case program
+    case topList
     case unknown
     
     public init(from decoder: Decoder) throws {
@@ -272,7 +274,7 @@ struct Padding: Codable {
             top: CGFloat(top ?? 0),
             leading: CGFloat(left ?? 0),
             bottom: CGFloat(bottom ?? 0),
-            trailing: CGFloat(right ?? 0)
+            trailing: -CGFloat(right ?? 0)
         )
     }
 }

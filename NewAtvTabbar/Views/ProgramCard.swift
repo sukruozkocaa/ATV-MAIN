@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ProgramCard: View {
     let item: VideoItem
     var config: SectionConfig?

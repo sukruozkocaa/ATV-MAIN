@@ -21,14 +21,14 @@ struct SectionContentView: View {
             
         case .program:
             if let videos = data.videos {
-                SectionLayoutBuilder(items: videos, config: data.config) { item in
+                SectionLayoutBuilder(items: videos, config: data.config) { item, _ in
                     ProgramCard(item: item, config: data.config)
                 }
             }
             
         case .broadcast:
             if let streams = data.streams {
-                SectionLayoutBuilder(items: streams, config: data.config) { item in
+                SectionLayoutBuilder(items: streams, config: data.config) { item, _ in
                     StreamCard(item: item, config: data.config)
                 }
             }
@@ -40,23 +40,30 @@ struct SectionContentView: View {
             
         case .cardFullImage1, .cardFullImage2:
             if let news = data.news {
-                SectionLayoutBuilder(items: news, config: data.config) { item in
+                SectionLayoutBuilder(items: news, config: data.config) { item, _ in
                     FullImageCard(item: item, config: data.config)
                 }
             } else if let videos = data.videos {
-                SectionLayoutBuilder(items: videos, config: data.config) { item in
+                SectionLayoutBuilder(items: videos, config: data.config) { item, _ in
                     VideoCard(item: item, config: data.config)
                 }
             }
             
         case .cardTopImage1, .cardFullImage3:
             if let videos = data.videos {
-                SectionLayoutBuilder(items: videos, config: data.config) { item in
+                SectionLayoutBuilder(items: videos, config: data.config) { item, _ in
                     VideoCard(item: item, config: data.config)
                 }
             } else if let news = data.news {
-                SectionLayoutBuilder(items: news, config: data.config) { item in
+                SectionLayoutBuilder(items: news, config: data.config) { item, _ in
                     FullImageCard(item: item, config: data.config)
+                }
+            }
+            
+        case .topList:
+            if let videos = data.videos {
+                SectionLayoutBuilder(items: videos, config: data.config) { item, index in
+                    RankedProgramCard(item: item, config: data.config, rank: index + 1)
                 }
             }
             

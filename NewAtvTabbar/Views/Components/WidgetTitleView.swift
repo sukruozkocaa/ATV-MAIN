@@ -21,7 +21,7 @@ struct WidgetTitleView: View {
             HStack(spacing: 8) {
                 Text(components[0].trimmingCharacters(in: .whitespaces))
                     .font(.system(size: fontSize, weight: .bold))
-                    .foregroundColor(Color(hex: "#FF5C00")) // Using a standard orange, can be adjusted
+                    .foregroundColor(Color(hex: "#FF5C00"))
                 
                 Text("|")
                     .font(.system(size: fontSize, weight: .light))
@@ -52,7 +52,7 @@ struct WidgetTitleView: View {
         } else {
             HStack {
                 Text(title)
-                    .font(.system(size: fontSize, weight: .bold)) // Keep original bold if standard title
+                    .font(.system(size: fontSize, weight: .bold))
                     .foregroundColor(color)
                     .padding(.bottom, 4)
                 

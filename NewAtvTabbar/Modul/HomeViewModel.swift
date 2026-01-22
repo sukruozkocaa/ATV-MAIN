@@ -31,7 +31,7 @@ class HomeViewModel: ObservableObject {
             let data = try Data(contentsOf: url)
             let response = try JSONDecoder().decode(APIResponse.self, from: data)
             DispatchQueue.main.async {
-                self.sections = response.data
+                self.sections = response.data.filter { $0.isActiveIOS == true }
                 self.isLoading = false
             }
         } catch {

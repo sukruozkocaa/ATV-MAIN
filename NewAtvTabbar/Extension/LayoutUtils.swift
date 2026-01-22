@@ -50,9 +50,7 @@ struct LayoutUtils {
             
             if width == 0 { return 0 }
             let imageRatio = Double(config.image?.weight ?? 0)
-            let spacer = CGFloat(config.cell?.itemSpacer ?? 1 * 2)
-            let cellWidth = Double(frameWidth - spacer)
-            
+            let cellWidth = Double(frameWidth)
             let calculateHeight = imageRatio * cellWidth / width * height
             
             return CGFloat(calculateHeight)

@@ -53,7 +53,7 @@ struct HeadlinesCard: View {
                                     Image(systemName: "play.fill")
                                     Text("Son Bölümü İzle")
                                         .fontWeight(.semibold)
-                                        .fixedSize(horizontal: true, vertical: false) // Metnin sığmaması durumunda küçülmesini engellemek için
+                                        .fixedSize(horizontal: true, vertical: false)
                                 }
                                 .frame(width: availableWidth * 0.60)
                                 .padding(.vertical, 12)
