@@ -28,7 +28,15 @@ enum TabbarOptions2Item: String, CaseIterable {
 
 struct TabbarOptions2: View {
     @State private var selectedTab: TabbarOptions2Item = .home
-    
+    let draggedViewSize: CGFloat = UIScreen.main.bounds.width
+    @State private var viewIsIn = false
+    @State private var duration: Double = 1.0
+    @State private var targetRect: CGRect = .zero
+    @State private var targetEdge: RectEdge = .bottom
+    @State private var buttonsEnabled = true
+    let buttonSize: CGFloat = 20.0
+    @State private var blurRadius: CGFloat = .zero
+
     init() {
         // Native tab bar'ı gizle
         UITabBar.appearance().isHidden = true
@@ -54,23 +62,82 @@ struct TabbarOptions2: View {
                     .tag(TabbarOptions2Item.all)
             }
             .padding(.bottom, 50)
+            .zIndex(0)
             
             // Özel TabBar Overlay
-            TabbarOptions2Overlay(selectedTab: $selectedTab)
-                .background(
-                    Color("bg_color")
-                        .ignoresSafeArea(edges: .bottom)
+            TabbarOptions2Overlay(selectedTab: $selectedTab, selectTabAction: {
+                withAnimation(.spring(response: 1.0, dampingFraction: 1.0)) {
+                    performGenie(edge: .top, rect: CGRect(
+                        x: -10.0,
+                        y: 75.0,
+                        width: buttonSize,
+                        height: buttonSize
+                    ))
+                }
+            })
+            .background(
+                Color("bg_color")
+                    .ignoresSafeArea(edges: .bottom)
+            )
+            .padding(.bottom, -16)
+            .zIndex(2)
+            
+            VStack {
+                Spacer()
+                
+                GenieAnimatedView(
+                    size: draggedViewSize,
+                    viewIsIn: $viewIsIn,
+                    duration: duration,
+                    targetRect: targetRect,
+                    targetEdge: targetEdge,
+                    content: {
+                        MiniPlayerContent(onClose: {
+                            guard buttonsEnabled else { return }
+                            withAnimation(.spring(response: 1.0, dampingFraction: 1.0)) {
+                                performGenie(edge: .top, rect: CGRect(
+                                    x: -15.0,
+                                    y: 75.0,
+                                    width: buttonSize,
+                                    height: buttonSize
+                                ))
+                            }
+                        }, isClosed: $viewIsIn)
+                    },
+                    onAnimationComplete: {
+                        buttonsEnabled = true
+                    },
+                    onProgressUpdate: { progress in
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                            blurRadius = progress * 1.5
+                        }
+                    }
                 )
-                .padding(.bottom, -16)
-
+                .frame(width: UIScreen.main.bounds.width, height: 116.0)
+                .blur(radius: blurRadius)
+                .offset(x: UIScreen.main.bounds.width/2)
+                
+                Spacer().frame(height: 10.0)
+            }
+            .zIndex(1)
+            
         }
         .background(Color("bg_color").ignoresSafeArea())
         .ignoresSafeArea(.keyboard)
+    }
+    
+    private func performGenie(edge: RectEdge, rect: CGRect) {
+        guard buttonsEnabled else { return }
+        buttonsEnabled = false
+        targetRect = rect
+        targetEdge = edge
+        viewIsIn.toggle()
     }
 }
 
 struct TabbarOptions2Overlay: View {
     @Binding var selectedTab: TabbarOptions2Item
+    var selectTabAction: () -> ()
     
     private var tabWidth: CGFloat {
         let totalSpacing: CGFloat = 5.0 * 4
@@ -117,7 +184,11 @@ struct TabbarOptions2Overlay: View {
                         isSelected: selectedTab == tab
                     ) {
                         withAnimation {
-                            selectedTab = tab
+                            guard tab == .live else {
+                                selectedTab = tab
+                                return
+                            }
+                            selectTabAction()
                         }
                     }
                     .frame(width: tabWidth)
