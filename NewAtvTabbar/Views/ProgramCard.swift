@@ -55,7 +55,7 @@ struct ProgramCard: View {
                                 .frame(height: 4)
                             
                             Rectangle()
-                                .fill(Color(hex: config?.progressBar?.color ?? "#FF0000"))
+                                .fill(Color(hex: config?.progressBar?.color ?? "FFFF0000"))
                                 .frame(width: imageWidth * CGFloat(progress), height: 4)
                         }
                         .frame(height: 4)

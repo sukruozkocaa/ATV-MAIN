@@ -599,7 +599,7 @@
                 },
                 "progressBar": {
                     "isActive": true,
-                    "color": "FFFFFFFF",
+                    "color": "FFFF0000",
                 },
                 "date": {
                     "fontColorDark": "FFFFFFFF",
