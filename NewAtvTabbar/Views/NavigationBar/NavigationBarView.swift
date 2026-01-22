@@ -42,7 +42,7 @@ struct NavigationBarView: View {
                 .glassEffect(.regular.interactive(), in: .rect(cornerRadius: .zero))
                 .ignoresSafeArea()
         } else {
-            BlurView(style: .systemMaterialDark)
+            BlurView(style: .dark)
                 .frame(height: 130.0)
                 .ignoresSafeArea()
         }

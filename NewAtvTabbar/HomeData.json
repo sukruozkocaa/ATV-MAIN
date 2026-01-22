@@ -876,7 +876,7 @@
                         "top": 16
                     },
                     "rowCount": 1,
-                    "template": "cardFullImage1",
+                    "template": "discovery",
                     "type": "horizontal"
                 },
                 "widgetTitle": {
@@ -1783,6 +1783,246 @@
                     "imageBig": "https://iatv.tmgrup.com.tr/2025/12/28/gunes-sistemindeki-sekiz-gezegenden-hangi-dordunun-halkalari-vardir-1766952212264.jpg",
                     "showAd": true,
                     "title": "Güneş Sistemi'ndeki sekiz gezegenden hangi dördünün halkaları vardır?"
+                }
+            ]
+        },
+        {
+            "config": {
+                "cell": {
+                    "itemSpacer": 12,
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "radius": 8,
+                    "ratio": 0.9
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 0,
+                    "size": "752x1000",
+                    "weight": 1
+                },
+                "indicator": {
+                    "borderColor": "00FFFFFF",
+                    "borderColorDark": "00FFFFFF",
+                    "height": 28,
+                    "isActive": true,
+                    "isOverImage": true,
+                    "selectedColor": "FFCB2C1E",
+                    "showIndex": false,
+                    "type": "ellipse",
+                    "unselectedColor": "FFA2A3A5",
+                    "unselectedColorDark": "FFA2A3A5"
+                },
+                "spot": {
+                    "align": "center",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 20,
+                    "fontType": "Overpass-bold",
+                    "gradient": true,
+                    "isActive": true,
+                    "maxLines": 1,
+                    "scrollBehaviour": "paging"
+                },
+                "title": {
+                    "align": "center",
+                    "checkShowTitle": false,
+                    "fontColorDark": "FFCB2C1E",
+                    "fontColorLight": "FFCB2C1E",
+                    "fontSize": 25,
+                    "fontType": "Overpass-bold",
+                    "gradient": true,
+                    "isActive": true,
+                    "isDynamicLines": true,
+                    "maxLines": 2,
+                    "scrollBehaviour": "paging"
+                },
+                "widget": {
+                    "autoSlide": false,
+                    "isGradient": true,
+                    "bgColorDark": "FF26323C",
+                    "bgColorLight": "FF26323C",
+                    "columnCount": 1,
+                    "infinityLoop": true,
+                    "interval": 8,
+                    "isActiveTiak": true,
+                    "padding": {
+                        "bottom": 16,
+                        "left": 16,
+                        "right": 16,
+                        "top": 16
+                    },
+                    "scrollBehaviour": "paging",
+                    "template": "newSeries",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "spacer": 12,
+                    "text": "Yeni Seriye Başla",
+                    "redirectUrl": "ss"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "news": [
+                {
+                    "external": "video://ac942087-0617-4e58-ad5c-b6b18998d3ec",
+                    "id": "1df296f2-0ef1-4355-9225-acad86f56e9c",
+                    "image": "https://iaatv.tmgrup.com.tr/392e52/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2025/11/24/abi-1763988361819.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2025/11/24/abi-1763988361819.jpg",
+                    "spot": "Drama · Aşk · Gizem",
+                    "title": "A.B.İ."
+                },
+                {
+                    "external": "video://e1fbe55c-d9e0-4140-87ed-d4600c6ae3ab",
+                    "id": "2c9ab40e-5eae-4e77-8ad7-05e58f166f8e",
+                    "image": "https://iaatv.tmgrup.com.tr/e7ed63/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2026/01/16/ayni-yagmur-altinda-1768592092001.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/16/ayni-yagmur-altinda-1768592092001.jpg",
+                    "spot": "Drama · Aşk · Gizem",
+                    "title": "Aynı Yağmur Altında"
+                },
+                {
+                    "external": "video://e690ecc9-5ccc-4b01-8257-bd3d195f8b6f",
+                    "id": "bb3ca52b-0fc1-4d40-8dc0-b4df5dbaa02a",
+                    "image": "https://iaatv.tmgrup.com.tr/32c185/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2025/10/17/kurulus-orhan-1760723973789.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2025/10/17/kurulus-orhan-1760723973789.jpg",
+                    "spot": "Drama · Aşk · Gizem",
+                    "title": "Kuruluş Orhan"
+                },
+                {
+                    "external": "video://3142ed92-218f-4d12-a000-de8bd01d7f81",
+                    "id": "4f591d10-3b2e-4f4f-aa67-539a6c05c34c",
+                    "image": "https://iaatv.tmgrup.com.tr/d9ae2e/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2026/01/03/milyoner-1767452851557.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/03/milyoner-1767452851557.jpg",
+                    "spot": "Drama · Aşk · Gizem",
+                    "title": "Milyoner"
+                },
+                {
+                    "external": "video://c7d349a5-43eb-4e87-bc3d-18bd1f4c7e27",
+                    "id": "014b89a4-de54-4343-a4d7-7a45c6265302",
+                    "image": "https://iaatv.tmgrup.com.tr/0cd9d6/750/1000/0/0/750/1000?u=https://iatv.tmgrup.com.tr/2026/01/15/1768508727922.jpg",
+                    "imageBig": "https://iatv.tmgrup.com.tr/2026/01/15/1768508727922.jpg",
+                    "spot": "Drama · Aşk · Gizem",
+                    "title": "︎︎⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀⠀ ⠀ ⠀︎ ︎⠀ ⠀"
+                }
+            ]
+        },{
+            "config": {
+                "cell": {
+                    "borderColor": "1AFFFFFF",
+                    "borderIsActive": false,
+                    "itemSpacer": 12,
+                    "radius": 0,
+                    "ratio": 0.28
+                },
+                "image": {
+                    "padding": {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    },
+                    "radius": 8,
+                    "size": "295x410",
+                    "weight": 1
+                },
+                "title": {
+                    "align": "left",
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 16,
+                    "fontType": "Overpass-bold",
+                    "isActive": true,
+                    "maxLines": 2
+                },
+                "widget": {
+                    "bgColorDark": "FF141518",
+                    "bgColorLight": "FF141518",
+                    "isGradient": true,
+                    "columnCount": 1,
+                    "padding": {
+                        "bottom": 16,
+                        "left": 16,
+                        "right": 16,
+                        "top": 16
+                    },
+                    "rowCount": 1,
+                    "template": "cardFullImage1",
+                    "type": "horizontal"
+                },
+                "widgetTitle": {
+                    "fontColorDark": "FFFFFFFF",
+                    "fontColorLight": "FFFFFFFF",
+                    "fontSize": 18,
+                    "fontType": "Overpass-bold",
+                    "spacer": 12,
+                    "text": "Bunlar da İlginizi Çekebilir",
+                    "redirectUrl": "ss"
+                }
+            },
+            "isActiveAndroid": true,
+            "isActiveIOS": true,
+            "news": [
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=075e6976-b2e3-4996-a93c-f1f44d4796eb",
+                    "image": "https://iatv.tmgrup.com.tr/2021/10/26/295x410/1635252285226.jpg",
+                    "title": "EDHO"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=96cc82ab-fc20-4cd4-8be1-9266434ef754",
+                    "image": "https://iaatv.tmgrup.com.tr/fe68fb/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2021/03/25/295x410/1616673694917.jpg",
+                    "title": "Karadayı"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=3e6f97ea-ad61-4629-9927-16e63e97d0df",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622730381231.jpg",
+                    "title": "Ezel"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=b154ab4a-b910-4397-b49c-7a02a3aa36b5",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/04/295x410/1622803859586.jpg",
+                    "title": "Hercai"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=64c31827-2fb9-43e3-9e3c-1666ffc2d846",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622729644120.jpg",
+                    "title": "Kara Para Aşk"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=de68e8b2-4ec5-4321-8e81-1bfa2cef2a3f",
+                    "image": "https://iatv.tmgrup.com.tr/2021/06/03/295x410/1622731252683.jpg",
+                    "title": "Avrupa Yakası"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=95d098f3-b364-4f97-9fff-e92d1928f2dd",
+                    "image": "https://iatv.tmgrup.com.tr/2021/03/25/295x410/1616672071318.jpg",
+                    "title": "Sen Anlat Karadeniz"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=8e8dd321-1e95-42e0-b968-41dba6d8d13b",
+                    "image": "https://iaatv.tmgrup.com.tr/5a3597/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2025/06/11/1749637973793.jpg",
+                    "title": "Kuruluş Osman"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=459ef907-b5d8-4d72-aa7f-fc1d289ef93d",
+                    "image": "https://iaatv.tmgrup.com.tr/44c59c/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/02/21/295x410/1708517624712.jpg",
+                    "title": "Kardeşlerim"
+                },
+                {
+                    "external": "apilink:///v2/link/105099330a?cid=de359413-a741-4b81-a1d1-09184023a604",
+                    "image": "https://iaatv.tmgrup.com.tr/37ebfe/295/410/0/0/295/410?u=https://iatv.tmgrup.com.tr/2024/09/05/295x410/1725545448317.jpg",
+                    "title": "Bir Gece Masalı"
                 }
             ]
         }

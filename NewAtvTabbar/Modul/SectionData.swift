@@ -170,6 +170,8 @@ enum SectionTemplate: String, Codable {
     case columnistLeftImage3
     case program
     case topList
+    case newSeries
+    case discovery
     case unknown
     
     public init(from decoder: Decoder) throws {

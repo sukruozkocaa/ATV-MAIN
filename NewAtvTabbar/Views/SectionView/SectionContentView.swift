@@ -67,6 +67,24 @@ struct SectionContentView: View {
                 }
             }
             
+        case .newSeries:
+            if let videos = data.videos {
+                SectionLayoutBuilder(items: videos, config: data.config) { item, _ in
+                    NewSeriesView(item: item, config: data.config)
+                }
+            } else if let news = data.news {
+                SectionLayoutBuilder(items: news, config: data.config) { item, _ in
+                    NewSeriesView(newsItem: item, config: data.config)
+                }
+            }
+            
+        case .discovery:
+            if let news = data.news {
+                SectionLayoutBuilder(items: news, config: data.config) { item, _ in
+                    DiscoveryCard(item: item, config: data.config)
+                }
+            }
+            
         default:
             EmptyView()
         }
