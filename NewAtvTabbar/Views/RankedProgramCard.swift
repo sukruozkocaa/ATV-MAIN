@@ -15,17 +15,29 @@ struct RankedProgramCard: View {
     var body: some View {
         let rankSpacing: CGFloat = 50
         UniversalCardContainer(config: config) { containerWidth in
-            let imageHeight = LayoutUtils.calculateImageHeight(config: config, frameWidth: containerWidth - rankSpacing)
-            
             HStack(alignment: .bottom, spacing: 0) {
                 // Sıralama Numarası
                 VStack {
                     Spacer()
-                    Image("rank_\(rank)")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: imageHeight)
-                        .padding(.trailing, rank == 1 ?  -50 : rank == 2 ? -20 : -10)
+                    Text("\(rank)")
+                        .font(.custom("Vazirmatn-Bold", size: 120.0))
+                        .foregroundColor(Color.init(hex: "111518"))
+                        .textStroke(
+                            size: 2,
+                            gradient: LinearGradient(
+                                gradient: Gradient(stops: [
+                                    .init(color: .white, location: 0.0),
+                                    .init(color: .white.opacity(0.7), location: 0.3),
+                                    .init(color: Color.init(hex: "111518").opacity(0.7), location: 0.63),
+                                    .init(color: Color.init(hex: "111518").opacity(0.8), location: 0.9),
+                                    .init(color: Color.init(hex: "111518"), location: 1.0)
+                                ]),
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .frame(height: 120.0)
+                        .offset(y: 30.0)
                 }
                 .frame(width: rankSpacing)
                 

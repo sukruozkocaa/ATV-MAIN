@@ -83,3 +83,19 @@ extension Color {
         )
     }
 }
+
+extension Text {
+    func textStroke(color: Color, width: CGFloat = 1) -> some View {
+        modifier(TextStrokeModifier(strokeSize: width, strokeColor: color))
+    }
+}
+
+extension View {
+    func textStroke(size: CGFloat, color: Color) -> some View {
+        self.modifier(TextStrokeModifier(strokeSize: size, strokeColor: color))
+    }
+    
+    func textStroke(size: CGFloat, gradient: LinearGradient) -> some View {
+        self.modifier(TextStrokeModifier(strokeSize: size, gradient: gradient))
+    }
+}
